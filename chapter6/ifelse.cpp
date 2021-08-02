@@ -13,7 +13,7 @@ int main()
 		if (ch == '\n')
 			std::cout << ch; // done i newline
 		else
-			std::cout << ch; // done otherwise
+			std::cout << ++ch; // done otherwise
 		std::cin.get(ch);
 	}
 	// try ch + 1 instad of ++ch for interesting effectt

@@ -25,6 +25,7 @@ int main()
 		}
 		showmenu();
 		cin >> choice;
+		cin.clear();
 	}
 	cout << "Bye!\n";
 }
