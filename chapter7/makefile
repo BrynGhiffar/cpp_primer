@@ -1,3 +1,3 @@
-dfile = protos.cpp
+dfile = arfupt.cpp
 main: $(dfile)
-	g++ -std=c++11 -pedantic-errors $(dfile) -o main
+	g++ -g -std=c++11 -pedantic-errors $(dfile) -o main
