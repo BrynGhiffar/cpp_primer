@@ -5,16 +5,17 @@ long double probability(unsigned numbers, unsigned picks);
 int main()
 {
 	using namespace std;
-	double total, choices;
+	double total, choices, mega_num;
 
-	cout << "Enter the total number of choices on the game card and\n"
-					"the number of picks allowed:\n";
-	while ((cin >> total >> choices) && choices <= total)
+	cout << "Enter the total number of choices on the game card, \n"
+		"the number of picks allowed and the total number of choices\n"
+		"to choose the mega number from:\n";
+	while ((cin >> total >> choices >> mega_num) && choices <= total)
 	{
 		cout << "You have one chance in ";
-		cout << probability(total, choices); // comput the odds
+		cout << probability(total, choices) * probability(mega_num, 1); // comput the odds
 		cout << " of winning.\n";
-		cout << "Next two numbers (q to quit): ";
+		cout << "Next three numbers (q to quit): ";
 	}
 
 	cout << "bye\n";
