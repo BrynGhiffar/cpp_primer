@@ -1,4 +1,4 @@
-// stock00.h -- Stock class interface
+// 10.1 stock00.h -- Stock class interface
 // version 00
 #ifndef STOCK00_H_
 #define STOCK00_H_

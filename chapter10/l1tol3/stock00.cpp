@@ -1,4 +1,4 @@
-// stock00.cpp -- implementing the Stock class
+// 10.2 stock00.cpp -- implementing the Stock class
 // version 00
 #include <iostream>
 #include "stock00.h"

@@ -1,4 +1,4 @@
-// usestck0.cpp -- the client program
+// 10.3 usestck0.cpp -- the client program
 // compile with stock00.cpp
 #include <iostream>
 #include "stock00.h"
