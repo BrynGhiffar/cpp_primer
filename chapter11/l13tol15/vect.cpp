@@ -80,7 +80,7 @@ namespace VECTOR
 		if (form == RECT)
 		{
 			x = n1;
-			y = n1;
+			y = n2;
 			set_mag();
 			set_ang();
 		} else if (form == POL)
