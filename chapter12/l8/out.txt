@@ -1,0 +1,16 @@
+Just Testing constructed
+Heap1 constructed
+Memory block addresses:
+buffer: 0x5654583f3eb0
+heap: 0x5654583f50d0
+Memory contents:
+0x5654583f3eb0: Just Testing, 0
+0x5654583f50d0: Heap1, 20
+Bad Idea constructed
+Heap2 constructed
+Memory contents:
+0x5654583f3eb0: Bad Idea, 6
+0x5654583f5100: Heap2, 10
+Heap1 destroyed
+Heap2 destroyed
+Done
