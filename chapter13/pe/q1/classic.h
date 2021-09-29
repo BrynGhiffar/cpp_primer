@@ -1,3 +1,5 @@
+#ifndef _CLASSIC_H_
+#define _CLASSIC_H_
 #include "cd.h"
 
 class Classic : public Cd
@@ -14,3 +16,5 @@ class Classic : public Cd
 		void Report() const;
 		Classic & operator=(const Classic & d);
 };
+
+#endif

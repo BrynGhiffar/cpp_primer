@@ -1,3 +1,5 @@
+#ifndef _CD_H_
+#define _CD_H_
 // base class
 class Cd {   // represents a CD disk
 	private:
@@ -14,4 +16,4 @@ class Cd {   // represents a CD disk
 		Cd & operator=(const Cd & d);
 };
 
-
+#endif
