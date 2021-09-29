@@ -1,0 +1,21 @@
+file1 = cd
+file2 = classic
+file3 = main
+
+all: $(file1).o $(file2).o $(file3).o main clean
+
+$(file1).o: $(file1).cpp
+	g++ -g -c -o $(file1).o $(file1).cpp -std=c++11 -pedantic-errors -Wall -Wextra
+
+$(file2).o: $(file2).cpp
+	g++ -g -c -o $(file2).o $(file2).cpp -std=c++11 -pedantic-errors -Wall -Wextra
+
+
+$(file3).o: $(file3).cpp
+	g++ -g -c -o $(file3).o $(file3).cpp -std=c++11 -pedantic-errors -Wall -Wextra
+
+main: $(file1).o $(file2).o $(file3).o
+	g++ -g -o main $(file1).o $(file2).o $(file3).o -std=c++11 -pedantic-errors -Wall -Wextra
+
+clean:
+	rm $(file1).o $(file2).o $(file3).o
